@@ -1,0 +1,48 @@
+form {
+    width: 50vw;
+    font-family: sans-serif;
+}
+
+fieldset {
+    background: goldenrod;
+    border: 2px solid gold;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+   
+}
+
+legend {
+    font-weight: 600;
+    margin: 10px 10px;
+}
+div {
+    width: 35vw;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+div input {
+    width: 20vw;
+    border-radius: 3px;
+}
+
+button {
+    width: 15vw;
+    height: 3vh;
+    margin:20px auto;
+    border-radius: 3px;
+    background: blue;
+    color: white;
+    cursor: pointer;
+
+}
+
+button:disabled {
+    background: red;
+    cursor: not-allowed;
+}
+ .error {
+    color: red;
+ }

@@ -1,0 +1,28 @@
+nav {
+    width: 100vw;
+    margin: 30px ;
+    background: goldenrod;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+button {
+   width: 20vw;
+   height: 5vh;
+    margin-right: 10px;
+    border-radius: 3px;
+    border: none;
+    box-shadow: 1px 2px 15px 0px rgb(14, 14, 14);
+    cursor: pointer;
+
+}
+
+button:hover {
+    background: blue;
+    color: white;
+}
+
+.active {
+    background: blue;
+    color: white;
+}

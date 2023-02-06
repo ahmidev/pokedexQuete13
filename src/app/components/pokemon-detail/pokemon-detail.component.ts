@@ -7,9 +7,7 @@ import { Pokemon } from 'src/app/shared/pokemon';
   styleUrls: ['./pokemon-detail.component.css']
 })
 export class PokemonDetailComponent implements OnInit{
-  @Input() pokemonSelectName:string='';
-  @Input() pokemonSelecteUrlImg:string='';
-  @Input() pokemonSelecteDescription:string='';
+ 
   @Input() pokemonRecu!:Pokemon|undefined
 
   constructor(){
@@ -18,7 +16,7 @@ export class PokemonDetailComponent implements OnInit{
   }
   
   ngOnInit(): void {
-    // this.pokemonRecu =this.pokemonSelect
+    
     
     
     

@@ -1,1 +1,21 @@
-<p>create-pokemon-page works!</p>
+<form (ngSubmit)="onSubmit()" [formGroup]="form">
+    <fieldset>
+        <legend>Ajout de pokemons</legend>
+        <div>
+            <label for="">Name</label>
+            <input type="text" formControlName="name">
+        </div>
+        <p class="error" *ngIf="form.get('name')?.errors && form.get('name')?.touched">name requise</p>
+        <div>
+            <label for="">url de l'image</label>
+            <input type="text" formControlName="url">
+        </div>
+        <p class="error" *ngIf="form.get('url')?.errors && form.get('url')?.touched">url requise</p>
+        <div>
+            <label for="">Discription</label>
+            <input type="text" formControlName="description">
+        </div>
+        <p class="error" *ngIf="form.get('description')?.errors && form.get('description')?.touched">Discription requise</p>
+        <button [disabled]="form.invalid">Ajouter</button>
+    </fieldset>
+</form>

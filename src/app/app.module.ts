@@ -8,6 +8,7 @@ import { PokemonListComponent } from './components/pokemon-list/pokemon-list.com
 import { PokemonDetailComponent } from './components/pokemon-detail/pokemon-detail.component';
 import { CreatePokemonPageComponent } from './components/create-pokemon-page/create-pokemon-page.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { HttpClientModule } from '@angular/common/http';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
