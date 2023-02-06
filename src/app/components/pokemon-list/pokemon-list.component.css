@@ -1,0 +1,28 @@
+li {
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    margin-bottom: 20px;
+    background: goldenrod;
+    border-radius: 5px;
+    box-shadow: 6px 8px 16px 1px #000000;
+    transition: all 0.4s;
+}
+li:hover {
+    background: gold;
+}
+
+li p {
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+
+li img {
+    width: 100%;
+}

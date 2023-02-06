@@ -1,0 +1,7 @@
+<ul >
+    <li  (click)="selectPokemon(index)" *ngFor="let pokemon of pokemons; let index=index">
+        <p>{{pokemon.name}}</p>
+        <img src={{pokemon.urlImg}} alt={{pokemon.name}}>
+        
+    </li >
+</ul>

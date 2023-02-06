@@ -1,0 +1,34 @@
+div{
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    margin-bottom: 20px;
+    background: rgb(32, 134, 218);
+    border-radius: 5px;
+    box-shadow: 6px 8px 16px 1px #000000;
+    padding: 0 10px;
+    transition: all 0.4s;
+    position: sticky;
+    top: 0;
+}
+
+
+div p {
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+    text-justify: auto;
+ 
+}
+
+
+div img {
+    width: 100%;
+}
+
+div p span {
+    font-weight: 600;
+}
